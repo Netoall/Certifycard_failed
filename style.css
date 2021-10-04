@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap");
+
+body {
+  background: linear-gradient(265deg, #23116c 45.05%, #5229ff 69.95%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: black;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #1a0e42, inset 0 0 1em white, 0 0 1em black;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-avatar {
+  max-high: 160px;
+  max-width: 160px;
+  border-radius: 200px;
+  box-shadow: 0 0 10px black, 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: yellow;
+}
+
+.profile-titulo {
+  margin-left: 16px;
+}
+
+.profile-titulo h1 {
+  font-family: "Stick No Bills", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.profile-titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.theme button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  background: linear-gradient(265deg, #23116c 20.05%, #807dff 89.95%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projects-title {
+  list-style: none;
+  font-weight: 700px;
+  font-size: 36px;
+  align-items: center;
+}
+
+.projects-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 48px;
+}
+
+.projects-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.dark {
+  background: linear-gradient(330deg, #271c7b 20.3%, #0d0929 90.7%);
+}
+
+.dark .container {
+  background: #0d0929;
+  color: #ffffff;
+}
+
+.dark .projects {
+  color: black;
+}
+
+.dark .theme button {
+  background: black;
+  color: white;
+  border: 1px solid #f7f7f7;
+}
