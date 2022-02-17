@@ -3,12 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap");
 
 body {
-  background: linear-gradient(260deg, #23116c 45.05%, #5229ff 69.95%);
+  background: linear-gradient(265deg, #0d0929 45.05%, #2457ff 69.95%);
   font-family: "Roboto", sans-serif;
 }
 
 .container {
-  background: #ecf4ff;
+  background: #dedede;
   color: black;
   margin: 64px;
   border-radius: 20px;
@@ -61,7 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: justify;
-  background: linear-gradient(265deg, #23116c 20.05%, #807dff 89.95%);
+  background: linear-gradient(265deg, #0d0929 20.05%, #2457ff 89.95%);
   margin-top: 32px;
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -106,7 +106,14 @@ body {
   border: 1px solid #f7f7f7;
 }
 
-
 .dark .profile-avatar {
   box-shadow: 0 0 10px yellow, 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dark .projects-title {
+  color: white;
+}
+
+.dark .projects-item {
+  color: white;
 }
